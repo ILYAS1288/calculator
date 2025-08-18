@@ -1,7 +1,21 @@
 import React from "react";
 import Button from "./Button";
+export { sum, subtract, multiply, divide } from "./mathOperations";
+ export const sum = (a, b) => {
+    return a + b;
+}
 
+export const subtract = (a, b) => {
+    return a - b;
+}
 
+export const multiply = (a, b) => {
+    return a * b;
+}
+
+export const divide = (a, b) => {
+    return a / b;
+}
 
 
 export default function ButtonGrid({ onClick, onClear, onCalculate }) {
