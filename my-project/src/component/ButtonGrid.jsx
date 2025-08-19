@@ -1,19 +1,20 @@
 import React from "react";
 import Button from "./Button";
-export { sum, subtract, multiply, divide } from "./mathOperations";
+
  export const sum = (a, b) => {
     return a + b;
 }
 
-export const subtract = (a, b) => {
+
+export const subtract = (a, b, ...rest) => {
     return a - b;
 }
 
-export const multiply = (a, b) => {
+export const multiply = (a, b, ...rest) => {
     return a * b;
 }
 
-export const divide = (a, b) => {
+export const divide = (a, b, ...rest) => {
     return a / b;
 }
 
@@ -37,6 +38,8 @@ const button = [
     ["7", "bg-gray-300", () => onClick("7")],
     ["8", "bg-gray-300", () => onClick("8")],
     ["9", "bg-gray-300", () => onClick("9")],
+    ["100", "bg-gray-300", () => onClick("100")],
+    ["1000", "bg-gray-300", () => onClick("1000")],
 ];
 return (
     <div className="grid grid-cols-4 gap-2 mt-4">
