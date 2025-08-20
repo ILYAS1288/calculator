@@ -27,7 +27,6 @@ const button = [
     ["*", "bg-gray-300 text-white", () => onClick("*")],
     ["-", "bg-gray-300 text-white", () => onClick("-")],
     ["+", "bg-gray-300 text-white", () => onClick("+")],
-   
     ["0", "bg-gray-300", () => onClick("0")],
     ["1", "bg-gray-300", () => onClick("1")],
     ["2", "bg-gray-300", () => onClick("2")],
