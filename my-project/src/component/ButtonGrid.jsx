@@ -40,6 +40,7 @@ const button = [
     ["100", "bg-gray-300", () => onClick("100")],
     ["1000", "bg-gray-300", () => onClick("1000")],
 ];
+
 return (
     <div className="grid grid-cols-4 gap-2 mt-4">
         {button.map(([label, style, handler], index) => (

@@ -6,7 +6,8 @@ function App() {
  
 
   return (
- <div>
+ <div className="center">
+
      <Calculator />
  </div>
   )
